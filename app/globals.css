@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Global styles for the JellyTrip site. We reset margins and apply
+ * consistent box sizing across elements. Additional global styles
+ * can be defined here.
+ */
+body {
+  @apply bg-white text-gray-800;
+}
